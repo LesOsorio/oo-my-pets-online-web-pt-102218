@@ -1,3 +1,9 @@
-class Owner
-  # code goes here
-end
+  class Owner
+    attr_reader :owners, :name
+    attr_accessor
+
+    def initialize(name)
+      @name = name
+    end
+
+  end
